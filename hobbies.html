@@ -52,6 +52,46 @@
                 padding: 10px;
                 background-color: #30475E;
             }
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+            .gallery{
+                display: flex;
+                flex-direction: column;
+            }
+            .gallery-header{
+                display: flex;
+                color: #30475E;
+                flex-direction: column;
+                text-decoration: underline;
+                flex: 2;
+                margin-top: 40px;
+                align-items: center;
+                justify-content: center;
+            }
+            .gallery-img{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-content: center;
+            }
+            .gallery-img img{
+                height: 400px;
+                width: 400px;
+                
+            }
         </style>
     </head>
     <body>
@@ -69,12 +109,51 @@
                 <p>This is a list of my hobbies</p>
             </div>
             <div class="hobbies-info">
-                <ol>
-                    <li>Football</li>
-                    <li>Basketball</li>
-                    <li>Singing</li>
-                    <li>UI/UX Design</li>
-                </ol>
+                <table>
+                    <tr>
+                      <th>Hobby</th>
+                      <th>Reason</th>
+                      <th>Favourite</th>
+                    </tr>
+                    <tr>
+                      <td>Football</td>
+                      <td>Its a very competitve sport and requires teamwork and general body fitness</td>
+                      <td>Chelsea</td>
+                    </tr>
+                    <tr>
+                      <td>Basketball</td>
+                      <td>I love playing basketball with my friends and have fun together</td>
+                      <td>Golden State Warriors</td>
+                    </tr>
+                    <tr>
+                      <td>Music</td>
+                      <td>I've always been a fan of music, I can sing, and I've been singing since i was young</td>
+                      <td>The 1975</td>
+                    </tr>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>I recently got an interest in UI/UX Design and I've been practicing it.</td>
+                      <td>Figma</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="gallery">
+                <h3 class="gallery-header">Gallery</h3>
+                <div class="gallery-img">
+                    <div class="img">
+                        <h4>Football</h4>
+                        <img src="/webdev/BirimumaasoRogers.github.io/public/img/football.avif" alt="">
+                    </div>
+                    <div class="img">
+                        <h4>Basketball</h4>
+                        <img src="/webdev/BirimumaasoRogers.github.io/public/img/basketball.avif" alt="">
+                    </div>
+                    <div class="img">
+                        <h4>Music</h4>
+                        <img src="/webdev/BirimumaasoRogers.github.io/public/img/music.avif" alt="">
+                    </div>
+                </div>
             </div>
         </main>
 
