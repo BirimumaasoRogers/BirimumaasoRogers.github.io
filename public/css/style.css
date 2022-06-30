@@ -1,0 +1,113 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    color: #222831;
+}
+h4{
+    color: #F05454;
+}
+a{
+    text-decoration: none;
+}
+.top-content{
+    display: flex;
+    flex: 2;
+    justify-content: space-between
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    margin-left: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 445px;
+    border: 1px solid grey;
+}
+.top-left:hover{
+    background-color: rgb(131, 194, 162);
+}
+.bio-header{
+    display: flex;
+    justify-content: center;
+}
+.bio-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(60, 108, 197);
+    margin-right: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 445px;
+    border: 1px solid rgb(60, 108, 197);
+}
+.top-right:hover{
+    background-color: rgb(192, 194, 131);
+}
+.top-right h2{
+    margin-left: 150px;
+}
+.middle-content{
+    display: flex;
+    justify-content: center;
+}
+
+.middle{
+    border: 1px solid rgb(91, 115, 134);
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(91, 115, 134);
+    height: 200px;
+    width: 400px;
+}
+.middle:hover{
+    background-color: rgb(134, 64, 198);
+}
+.bottom-content{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+.bottom-content h2{
+    margin-left: 120px;
+}
+.bottom-left{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 445px;
+    padding: 10px;
+    background-color: rgb(116, 153, 222);
+    border: 1px solid rgb(116, 153, 222);
+}
+.bottom-left:hover{
+    background-color: rgb(196, 47, 77);
+}
+.bottom-right{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 445px;
+    padding: 10px;
+    background-color: rgb(242, 211, 181);
+    border: 1px solid rgb(242, 211, 181);
+}
+.bottom-right:hover{
+    background-color: darkcyan;
+}
